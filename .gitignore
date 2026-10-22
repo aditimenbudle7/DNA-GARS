@@ -1,0 +1,61 @@
+# ---- Build outputs ----
+build/
+bin/
+obj/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
+*.app
+dna-gars
+dna_gars
+test_search
+test_align
+test_reconstruct
+
+# ---- Debug / profiling ----
+*.dSYM/
+*.pdb
+*.ilk
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+vgcore.*
+core
+core.*
+
+# ---- Generated results (keep folder, ignore contents) ----
+results/*
+!results/.gitkeep
+
+# ---- Large generated genomes (keep small samples in data/) ----
+data/generated/
+*.fa.gz
+*.fasta.gz
+
+# ---- Python (plot script) ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cproject
+.project
+.settings/
+*.code-workspace
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
